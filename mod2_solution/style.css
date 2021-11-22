@@ -1,0 +1,55 @@
+p,.yellow{
+    color:blue;
+    font-size: 20px;
+    width: 1320px;
+     font-weight: bold;
+     font-style: italic;
+     background-color: green;
+    }
+  h1{
+    color: green;
+    font-size: 40px;
+    text-align: center;
+  }
+  h2{
+    color: green;
+    font-size: 30px;
+  }
+  h3{
+    color: green;
+    font-size: 30px;
+  }
+  
+  div{
+    color: red;
+     font-size: 20px;
+     font-weight: bold;
+     font-style: italic;
+     background-color:black;
+     }
+  p#love{
+    color: blue;
+    opacity: .6;
+
+  }
+  
+  section li{
+    list-style: none;
+  }
+  a:link,a:visited{
+    text-decoration: none;
+    background-color: green;
+    border: 1px solid blue;
+    color: black;
+    display: block;
+    width: 400px;
+    text-align: center;
+    margin-bottom: 1px;
+  }
+  a:hover,a:active{
+    background-color: red;
+    color: purple;
+  }
+  section li:nth-child(7){
+    font-size: 24px;
+  }
