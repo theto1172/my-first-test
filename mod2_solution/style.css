@@ -1,55 +1,566 @@
-p,.yellow{
-    color:blue;
-    font-size: 20px;
-    width: 1320px;
+.yellow{
+    color:black;
+    font-size:20px;
+    width:500px;
+    height: 130px;
+    margin-left:10px;
+    margin-bottom: 10px;
      font-weight: bold;
      font-style: italic;
-     background-color: green;
-    }
+     background-color:green ;
+     font-family: Arial, Helvetica, sans-serif;
+     }
+  p{
+    color:black;
+    font-size: 20px;
+    /*width: 1320px;*/
+     font-weight: bold;
+     font-style: italic;
+     background-color:green ;
+     font-family: Arial, Helvetica, sans-serif;
+     }
+     .thet{
+      width: 400px;
+      height: 50px;
+      margin-bottom: 10px;
+     }
+     .rena{
+      width: 400px;
+      height: 30px;
+      margin-left: 10px;
+      margin-bottom: 10px;
+     }
+     .red{
+      width:500px;
+      height: 100px;
+      margin-left: 10px;
+      margin-bottom: 10px;
+     }
+     #section1,#section2,#section3,#section4,#section7,#section8,#section9{
+    background-color: blue;
+    padding: 2px;
+    border: 1px solid black;
+    margin: 1px;
+    overflow: auto;
+    height:200px;
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 5px;
+  }
+  #section5{
+    background-color: blue;
+    padding: 2px;
+    border: 1px solid black;
+    margin: 1px;
+    overflow: auto;
+    height:200px;
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 5px;
+  }
+  #me{
+    clear: both;
+    width: 400px;
+    height: 200px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+  }
   h1{
     color: green;
     font-size: 40px;
     text-align: center;
+     font-family: "Times New Roman", Times, serif;
+     text-transform: uppercase;
+     margin-bottom: 30px;
   }
-  h2{
+  div p.thet a{
+    margin-left: 0px;
+  }
+  h2,h3{
     color: green;
     font-size: 30px;
-  }
-  h3{
-    color: green;
-    font-size: 30px;
+     font-family: "Times New Roman", Times, serif;
+     margin-bottom: 20px;
+     margin-left: 10px;
   }
   
-  div{
+  #content,#content1{
     color: red;
      font-size: 20px;
      font-weight: bold;
      font-style: italic;
      background-color:black;
+     font-family: "Times New Roman", Times, serif;
+     background-image: url("my first pratice photo.jpg");
+     margin-left: 15px;
+     }
+  div{color: red;
+     font-size: 20px;
+     font-weight: bold;
+     font-style: italic;
+     background-color:black;
+     font-family: "Times New Roman", Times, serif;
+     background-image: url("my first pratice photo.jpg");
+    }
+     #box1,#box2{
+    background-color: blue;
+    padding: 5px;
+    border: 5px solid black;
+    margin: 1px;
+    width: 400px;
+    height: 200px;
+    margin-left: 10px;
      }
   p#love{
     color: blue;
     opacity: .6;
-
-  }
+   font-family: Arial, Helvetica, sans-serif;
+ }
   
-  section li{
+  section div{
     list-style: none;
   }
   a:link,a:visited{
     text-decoration: none;
     background-color: green;
     border: 1px solid blue;
-    color: black;
+    color: #00FFFF;
     display: block;
     width: 400px;
     text-align: center;
-    margin-bottom: 1px;
+    margin-bottom: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 10px;
+    height: 30px;
+  }
+  div section a{
+    text-decoration: none;
+    background-color: green;
+    border: 1px solid blue;
+    color: #00FFFF;
+    display: block;
+    margin-bottom: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    height: 30px;
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
   }
   a:hover,a:active{
     background-color: red;
     color: purple;
   }
-  section li:nth-child(7){
+  section div:nth-child(7){
     font-size: 24px;
   }
+  section p.red a{
+    margin-left: 0px;
+  }
+  body{
+    background-color: #00FFFF;
+  }
+  *{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    }
+    /*** Simple Responsive Framework.***/
+.row{
+  width: 100%;
+}
+.row2{
+  width: 100%;
+}
+               /*** Large devices only ***/
+@media(min-width: 1200px){
+  .col-lg-1,.col-lg-2,.col-lg-3,.col-lg-4,.col-lg-5,.col-lg-6,.col-lg-7,.col-lg-8,
+  .col-lg-9,.col-lg-10,.col-lg-11,.col-lg-12{
+    float: left;
+    border: 1px solid black;
+  }
+.col-lg-1{
+  width: 8.33%;
+}
+.col-lg-2{
+  width: 16.66%;
+}
+.col-lg-3{
+  width: 25%;
+}
+.col-lg-4{
+  width: 33%;
+}
+.col-lg-5{
+  width: 41.66%;
+}
+.col-lg-6{
+  width: 50%;
+}
+.col-lg-7{
+  width: 58.33%;
+}
+.col-lg-8{
+  width: 66.66%;
+}
+.col-lg-9{
+  width: 74.99%;
+}
+.col-lg-10{
+  width: 83.33%;
+}
+.col-lg-11{
+  width: 91.66%;
+}
+.col-lg-12{
+  width: 100%;
+}
+  .yellow{
+    color:black;
+    font-size: 20px;
+    width: 650px;
+    height: 100px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+     font-weight: bold;
+     font-style: italic;
+     background-color:green ;
+     font-family: Arial, Helvetica, sans-serif;
+     }
+  p{
+    color:black;
+    font-size: 20px;
+     font-weight: bold;
+     font-style: italic;
+     background-color:green ;
+     font-family: Arial, Helvetica, sans-serif;
+     }
+     .thet{
+      width: 400px;
+      height: 50px;
+      margin-bottom: 10px;
+     }
+     .rena{
+      width: 400px;
+      height: 30px;
+      margin-left: 10px;
+      margin-bottom: 10px;
+     }
+     .red{
+      width: 500px;
+      height: 130px;
+      margin-left: 10px;
+      margin-bottom: 10px;
+     }
+     #section1,#section2,#section3,#section4,#section7,#section8,#section9{
+    background-color: blue;
+    padding: 2px;
+    border: 1px solid black;
+    margin: 1px;
+    overflow: auto;
+    height: 200px;}
+#section8,#section9{
+ /*** margin-bottom: 10px;***/
+}
+  #section5{
+    background-color: blue;
+    padding: 2px;
+    border: 1px solid black;
+    margin: 1px;
+    overflow: auto;
+    height: 200px;
+  }
+  #me{
+    clear: both;
+    width: 400px;
+    height: 200px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+  }
+  h1{
+    color: green;
+    font-size: 40px;
+    text-align: center;
+     font-family: "Times New Roman", Times, serif;
+     text-transform: uppercase;
+     margin-bottom: 30px;
+  }
+  div p.thet a{
+    margin-left: 0px;
+  }
+  h2,h3{
+    color: green;
+    font-size: 30px;
+     font-family: "Times New Roman", Times, serif;
+     margin-bottom: 20px;
+     margin-left: 10px;
+  }
+  
+  #content,#content1{
+    color: red;
+     font-size: 20px;
+     font-weight: bold;
+     font-style: italic;
+     background-color:black;
+     font-family: "Times New Roman", Times, serif;
+     background-image: url("my first pratice photo.jpg");
+     margin-left: 15px;
+     }
+  div{
+    color: red;
+     font-size: 20px;
+     font-weight: bold;
+     font-style: italic;
+     background-color:black;
+     font-family: "Times New Roman", Times, serif;
+     background-image: url("my first pratice photo.jpg");
+  }
+     #box1,#box2{
+    background-color: blue;
+    padding: 5px;
+    border: 5px solid black;
+    margin: 1px;
+    width: 400px;
+    height: 200px;
+    margin-left: 10px;
+     }
+  p#love{
+    color: blue;
+    opacity: .6;
+   font-family: Arial, Helvetica, sans-serif;
+ }
+  
+  section div{
+    list-style: none;
+  }
+  a:link,a:visited{
+    text-decoration: none;
+    background-color: green;
+    border: 1px solid blue;
+    color: #00FFFF;
+    display: block;
+    width: 400px;
+    text-align: center;
+    margin-bottom: 1px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 10px;
+    height: 30px;
+  }
+  a:hover,a:active{
+    background-color: red;
+    color: purple;
+  }
+  section div:nth-child(7){
+    font-size:30px;
+  }
+  section p.red a{
+    margin-left: 0px;
+  }
+  body{
+    background-color: #00FFFF;
+  }
+  *{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    }
+
+}
+ /*** Medium decives only ***/
+@media(min-width: 950px) and (max-width: 1199px){
+  .col-md-1,.col-md-2,.col-md-3,.col-md-4,.col-md-5,.col-md-6,.col-md-7,.col-md-8,
+  .col-md-9,.col-md-10,.col-md-11,.col-md-12{
+    float: left;
+    border: 1px solid black;
+  }
+.col-md-1{
+  width: 8.33%;
+}
+.col-md-2{
+  width: 16.66%;
+}
+.col-md-3{
+  width: 25%;
+}
+.col-md-4{
+  width: 33%;
+}
+.col-md-5{
+  width: 41.66%;
+}
+.col-md-6{
+  width: 50%;
+}
+.col-md-7{
+  width: 58.33%;
+}
+.col-md-8{
+  width: 66.66%;
+}
+.col-md-9{
+  width: 74.99%;
+}
+.col-md-10{
+  width: 83.33%;
+}
+.col-md-11{
+  width: 91.66%;
+}
+.col-md-12{
+  width: 100%;
+}
+  .yellow{
+    color:black;
+    font-size: 20px;
+    width:650px;
+    height:100px;
+    margin-left:10px;
+    margin-bottom:10px;
+     font-weight: bold;
+     font-style: italic;
+     background-color:green ;
+     font-family: Arial, Helvetica, sans-serif;
+     }
+  p{
+    color:black;
+    font-size: 20px;
+     font-weight: bold;
+     font-style: italic;
+     background-color:green ;
+     font-family: Arial, Helvetica, sans-serif;
+     }
+     .thet{
+      width: 300px;
+      height: 40px;
+      margin-bottom: 5px;
+     }
+     .rena{
+      width:350px;
+      height: 30px;
+      margin-left: 5px;
+      margin-bottom: 5px;
+     }
+     .red{
+      width:500px;
+      height:163px;
+      margin-left:10px;
+      margin-bottom:10px;
+     }
+     #section1,#section2,#section3,#section4,#section7,#section8,#section9{
+    background-color: blue;
+    padding: 2px;
+    border: 1px solid black;
+    margin: 1px;
+    overflow: auto;
+    height: 200px;
+  }
+   #section5{
+    background-color: blue;
+    padding: 2px;
+    border: 1px solid black;
+    margin: 1px;
+    overflow: auto;
+    height: 200px;
+  }
+  #me{
+    clear: both;
+    width: 400px;
+    height: 150px;
+    margin-left:10px;
+    margin-bottom: 5px;
+  }
+  h1{
+    color: green;
+    font-size: 30px;
+    text-align: center;
+     font-family: "Times New Roman", Times, serif;
+     text-transform: uppercase;
+     margin-bottom: 15px;
+  }
+  div p.thet a{
+    margin-left: 0px;
+  }
+  h2,h3{
+    color: green;
+    font-size:30px;
+     font-family: "Times New Roman", Times, serif;
+     margin-bottom: 10px;
+     margin-left:10px;
+  }
+  
+  #content,#content1{
+    color: red;
+     font-size:25px;
+     font-weight: bold;
+     font-style: italic;
+     background-color:black;
+     font-family: "Times New Roman", Times, serif;
+     background-image: url("my first pratice photo.jpg");
+     margin-left:23px;
+     }
+  div{
+     color: red;
+     font-size:20px;
+     font-weight: bold;
+     font-style: italic;
+     background-color:black;
+     font-family: "Times New Roman", Times, serif;
+     background-image: url("my first pratice photo.jpg");
+  }
+     #box1,#box2{
+    background-color: blue;
+    padding:3px;
+    border:3px solid black;
+    margin:2px;
+    width:500px;
+    height:250px;
+    margin-left:10px;
+     }
+  p#love{
+    color: blue;
+    opacity: .6;
+   font-family: Arial, Helvetica, sans-serif;
+ }
+  
+  section div{
+    list-style: none;
+  }
+  a:link,a:visited{
+    text-decoration: none;
+    background-color: green;
+    border: 2px solid blue;
+    color: #00FFFF;
+    display: block;
+    width: 400px;
+    text-align: center;
+    margin-bottom:2px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size:20px;
+    margin-left: 5px;
+    height:25px;
+  }
+  a:hover,a:active{
+    background-color: red;
+    color: purple;
+  }
+  section div:nth-child(7){
+    font-size:20px;
+  }
+  section p.red a{
+    margin-left: 0px;
+  }
+  body{
+    background-color: #00FFFF;
+  }
+  *{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    }
+
+}

@@ -2,34 +2,248 @@
 <html>
 <head>
 	<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1>">
 	<title>same-directory.html</title>
-	<style>
+	<style>	
+	#box{
+		background-color: blue;
+		padding: 5px;
+		border:3px solid black;
+		margin:5px;
+		margin-top:15px;
+		margin-left: 10px;
+		height:400px;
+		width: 400px;
+		overflow: auto;
+		}
 	p{
-		color: blue;
+		font-size:20px;
+		width:500px;
+		height: 300px;
+		font-weight: bold;
+		font-style: italic;
+		font-family: "Lucida Console", "Courier New", monospace;
+		color: black;
 		background-color: green;
-		font-size: 20px;
+		margin-left: 10px;
+	}
+	
+		#content{
+		background-color: #90EE90;
+		font-size: 15px;
+		font-weight: bold;
+		font-style: italic;
+		font-family: "Lucida Console", "Courier New", monospace;
+		background-image: url("my first pratice photo.jpg");
+		}
+	h1{
+		color: #00FFFF;
+		font-size:25px;
+		font-weight: bold;
+		text-align: center;
+	    font-family: "Times New Roman", Times, serif;
+		text-transform: uppercase;
+	}
+	#love{
+		font-size:15px;
+		font-weight: bold;
+		background-color: green;
+		text-align: center;
+		font-family: "Lucida Console", "Courier New", monospace;
+	}
+section a:link,section a:visited{
+    text-decoration: none;
+    border: 1px solid blue;
+    color: #00FFFF;
+    display: block;
+    width: 90%;
+    margin-bottom:5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    height: 20px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  section a:hover,section a:active{
+    background-color: red;
+    color: purple;}
+  p img{
+  	width: 200px;
+  	height: 200px;
+  	margin-left:5px;
+  }
+    *{
+    	box-sizing: border-box;
+    	margin: 0;
+    	padding: 0;
+    }
+	body{
+		background-color: gray;
+	}
+	   /*** Large devices only ***/
+@media(min-width: 1200px){
+	#box{
+		background-color: blue;
+		padding: 10px;
+		border: 5px solid black;
+		margin:5px;
+		margin-top: 30px;
+		height:565px;
+		width: 1350px;
+		}
+	p{
+		font-size:20px;
+		width: 1300px;
+		height:550px;
+		font-weight: bold;
+		font-style: italic;
+		font-family: "Lucida Console", "Courier New", monospace;
+		color: black;
+		background-color: green;
+		margin-left:30px;
+	}
+	
+		#content{
+		background-color: #90EE90;
+		font-size:20px;
 		width: 1300px;
 		font-weight: bold;
 		font-style: italic;
-	}
+		font-family: "Lucida Console", "Courier New", monospace;
+		background-image: url("my first pratice photo.jpg");
+		}
 	h1{
-		color: green;
+		color: #00FFFF;
 		font-size: 40px;
 		font-weight: bold;
 		text-align: center;
+	    font-family: "Times New Roman", Times, serif;
+		text-transform: uppercase;
 	}
 	#love{
-		color: blue;
-		font-size: 20px;
+		font-size:20px;
 		font-weight: bold;
 		background-color: green;
 		text-align: center;
+		font-family: "Lucida Console", "Courier New", monospace;
 	}
+section a:link,section a:visited{
+    text-decoration: none;
+    border: 1px solid blue;
+    color: #00FFFF;
+    display: block;
+    width: 90%;
+    margin-bottom:10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    height: 30px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+ section a:hover,section a:active{
+    background-color: red;
+    color: purple;
+  }
+ p img{
+ 	width: 500px;
+ 	height: 500px;
+ 	margin-left: 15px;
+ }
+   *{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    }
+	body{
+		background-color: gray;
+	}
+}
+@media(min-width: 950px) and (max-width: 1199px){
+	#box{
+		background-color: blue;
+		padding:5px;
+		border: 5px solid black;
+		margin:5px;
+		margin-top:20px;
+		margin-left: 10px;
+		height:300px;
+		width:600px;
+		overflow: auto;
+		}
+	p{
+		font-size:20px;
+		width:850px;
+		height:380px;
+		font-weight: bold;
+		font-style: italic;
+		font-family: "Lucida Console", "Courier New", monospace;
+		color: black;
+		background-color: green;
+		margin-left: 15px;
+	}
+	
+		#content{
+		background-color: #90EE90;
+		font-size: 15px;
+		font-weight: bold;
+		font-style: italic;
+		font-family: "Lucida Console", "Courier New", monospace;
+		background-image: url("my first pratice photo.jpg");
+		overflow: auto;
+		}
+	h1{
+		color: #00FFFF;
+		font-size:35px;
+		font-weight: bold;
+		text-align: center;
+	    font-family: "Times New Roman", Times, serif;
+		text-transform: uppercase;
+	}
+	#love{
+		font-size: 25px;
+		font-weight: bold;
+		background-color: green;
+		text-align: center;
+		font-family: "Lucida Console", "Courier New", monospace;
+	}
+section a:link,section a:visited{
+    text-decoration: none;
+    border: 1px solid blue;
+    color: #00FFFF;
+    display: block;
+    width: 90%;
+    margin-bottom:10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    height: 30px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+ section a:hover,section a:active{
+    background-color: red;
+    color: purple;
+  }
+ p img{
+ 	width:300px;
+ 	height:300px;
+ 	margin-left: 10px;
+ }
+   *{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    }
+	body{
+		background-color: gray;
+	}
+}
 </style>
 </head>
 <body>
 <h1>same-directory.html</h1>
-<p>&quot;consectetur adipisicing elit. Repellendus dignissimos aut quasi quibusdam aspernatur possimus officia malla comectetur velitt A, aperiom umenda, repudiandae laudantium, voluptatibus ex dignissimos, eum quaerat ducimus cupiditate corporis totam. Illo, alias valuptatem accusamus ut nat co rqs lbrio doloribus poro vero assumenda quo temporibus quos quam quisquam, libero quod, itaque eius sit ducimus totam iste possimus architecto debitis? Commodi ut minima maios come voluptates unde deleniti error vero tempora, eligendi blanditiis, deserunt Aspernatur, vitae. Suscipit, doliores quos delerits Velt dandae provident a, in ad id aspermatur dolor ratione cos placeat, ex temporibus ipsum eligendi sequi reprchenderit cupiditate perferendis explicabo blanditis seme deloem aperia deleniti. Tempore, rem, quam? Totam non reiciendis amet, at reprehenderit inventore, adipisci nesciunt itaque dolorum asperiores, ducimus corrupti quam impedit qant ompors. Itaque dicta deleniti fugit, laudantium rerum sint consectetur asperiores, quia veritatis dignissimos esse in nesciunt distinctio facere iure facilis voluptatibus placest volpe ptatum expedita animi a veniam nulla ca. Enim aliquid, non. Necessitatibus nam fugiat autem quae qui quam consequatur repudiandae quidem ipsam impedit distinctio, segul deloribs, quarat quod ab maxime. Harum facilis sed commodi reprehenderit?&quot;</p>
+<div id="box">
+<div id="content">&quot;consectetur adipisicing elit. Repellendus dignissimos aut quasi quibusdam aspernatur possimus officia malla comectetur velitt A, aperiom umenda, repudiandae laudantium, voluptatibus ex dignissimos, eum quaerat ducimus cupiditate corporis totam. Illo, alias valuptatem accusamus ut nat co rqs lbrio doloribus poro vero assumenda quo temporibus quos quam quisquam, libero quod, itaque eius sit ducimus totam iste possimus architecto debitis? Commodi ut minima maios come voluptates unde deleniti error vero tempora, eligendi blanditiis, deserunt Aspernatur, vitae. Suscipit, doliores quos delerits Velt dandae provident a, in ad id aspermatur dolor ratione cos placeat, ex temporibus ipsum eligendi sequi reprchenderit cupiditate perferendis explicabo blanditis seme deloem aperia deleniti. Tempore, rem, quam? Totam non reiciendis amet, at reprehenderit inventore, adipisci nesciunt itaque dolorum asperiores, ducimus corrupti quam impedit qant ompors. Itaque dicta deleniti fugit, laudantium rerum sint consectetur asperiores, quia veritatis dignissimos esse in nesciunt distinctio facere iure facilis voluptatibus placest volpe ptatum expedita animi a veniam nulla ca. Enim aliquid, non. Necessitatibus nam fugiat autem quae qui quam consequatur repudiandae quidem ipsam impedit distinctio, segul deloribs, quarat quod ab maxime. Harum facilis sed commodi reprehenderit?consectetur adipisicing elit. Repellendus dignissimos aut quasi quibusdam aspernatur possimus officia malla comectetur velitt A, aperiom umenda, repudiandae laudantium, voluptatibus ex dignissimos, eum quaerat ducimus cupiditate corporis totam. Illo, alias valuptatem accusamus ut nat co rqs lbrio doloribus poro vero assumenda quo temporibus quos quam quisquam, libero quod, itaque eius sit ducimus totam iste possimus architecto debitis? Commodi ut minima maios come voluptates unde deleniti error vero tempora, eligendi blanditiis, deserunt Aspernatur, vitae. Suscipit, doliores quos delerits Velt dandae provident a, in ad id aspermatur dolor ratione cos placeat, ex temporibus ipsum eligendi sequi reprchenderit cupiditate perferendis explicabo blanditis seme deloem aperia deleniti. Tempore, rem, quam? Totam non reiciendis amet, at reprehenderit inventore, adipisci nesciunt itaque dolorum asperiores, ducimus corrupti quam impedit qant ompors. Itaque dicta deleniti fugit, laudantium rerum sint consectetur asperiores, quia veritatis dignissimos esse in nesciunt distinctio facere iure facilis voluptatibus placest volpe ptatum expedita animi a veniam nulla ca. Enim aliquid, non. Necessitatibus nam fugiat autem quae qui quam consequatur repudiandae quidem ipsam &quot;</div>
+</div>
 
 <section id="love">
 	
